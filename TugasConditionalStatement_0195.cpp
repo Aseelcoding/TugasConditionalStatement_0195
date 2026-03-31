@@ -31,5 +31,8 @@ string getStatus(float bmi) {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    float height = 0;
+    float weight = 0;
+    cout << "--- Welcome Class F Students 2025 ---" << endl;
+ 
 }
