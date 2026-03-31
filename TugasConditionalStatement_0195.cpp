@@ -36,6 +36,10 @@ int main()
     cout << "--- Welcome Class F Students 2025 ---" << endl;
 //to get the data from the user :
     inputData(weight, height);
+    
+    // Calling the functions
+    float bmi = calculateBMI(weight, height);
+    string status = getStatus(bmi);
 
  
 }
