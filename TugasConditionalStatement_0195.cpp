@@ -44,6 +44,5 @@ int main()
     cout << "\n--- Result ---" << endl;
     cout << "Your BMI : " << bmi << endl;
     cout << "Status   : " << status << endl;
-
     return 0;
 }
