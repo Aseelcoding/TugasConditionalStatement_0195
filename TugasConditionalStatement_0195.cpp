@@ -41,5 +41,9 @@ int main()
     float bmi = calculateBMI(weight, height);
     string status = getStatus(bmi);
 
- 
+    cout << "\n--- Result ---" << endl;
+    cout << "Your BMI : " << bmi << endl;
+    cout << "Status   : " << status << endl;
+
+    return 0;
 }
